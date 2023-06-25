@@ -27,3 +27,6 @@ jobs:
       
       - name: UnitTest
         run: dotnet test
+
+      - name: Coverage
+        run: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura

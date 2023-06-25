@@ -36,6 +36,7 @@ namespace SquareEquationLib.Tests
         [InlineData(4, 4, 0, new double[]{0.0,-1})]
         [InlineData(3, 4, -5, new double[]{-2.1196,0.78630})]
         [InlineData(-1, 0, 1, new double[]{-1, 1})]
+        [InlineData(1, 0, 1, new double[]{})]
         
         
         public void Solve_Input_ReturnDoubleArray(double a, double b, double c, double[] expected)
