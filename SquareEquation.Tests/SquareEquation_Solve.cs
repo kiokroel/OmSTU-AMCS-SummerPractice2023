@@ -5,19 +5,6 @@ namespace SquareEquationLib.Tests
 {
     public class SquareEquationLib_Test
     {
-        /*[Fact]
-        public void Solve_Input()
-        {
-            int a = 1;
-            int b = 10;
-            int c = 25;
-            double[] expection = new double[]{5};
-
-            var res = SquareEquation.Solve(a, b, c);
-
-            Assert.NotEqual(expection, res);
-        }*/
-
         [Theory]
         [InlineData(0, 10, 25)]
         [InlineData(1, double.PositiveInfinity, 0)]
