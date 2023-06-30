@@ -2,7 +2,7 @@ namespace SpaceBattle.Tests;
 using TechTalk.SpecFlow;
 using SpaceBattleLib;
 
- [Binding]
+[Binding]
 public class StepDefinitions
 {
     private double[] spaceshipCoordinates = new double[]{double.NaN, double.NaN};
@@ -40,7 +40,7 @@ public class StepDefinitions
     [When(@"^происходит прямолинейное равномерное движение без деформации")]
     public void ДвижениеКорабля(){
         try{
-            actualResult = ShipMove.Movement(spaceshipCoordinates, spaceshipSpeed, relocate);
+            actualResult = SpaceBattle.Movement(spaceshipCoordinates, spaceshipSpeed, relocate);
         }
         catch(Exception e){
             actualException = e;

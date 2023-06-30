@@ -1,8 +1,8 @@
-name: spacebattle test
+name: square equation test
 
 on:
   push:
-    branches: ["spacebattle_8"]
+    branches: ["spacebattle"]
 
 jobs:
   build:
