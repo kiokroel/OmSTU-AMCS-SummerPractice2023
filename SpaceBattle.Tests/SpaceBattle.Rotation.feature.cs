@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace SpaceBattle.Rotation
+namespace SpaceBattle.Tests
 {
     using TechTalk.SpecFlow;
     using System;
@@ -31,7 +31,7 @@ namespace SpaceBattle.Rotation
 #line 1 "SpaceBattle.Rotation.feature"
 #line hidden
         
-        public РазворотFeature(РазворотFeature.FixtureData fixtureData, SpaceBattle_Rotation_XUnitAssemblyFixture assemblyFixture, Xunit.Abstractions.ITestOutputHelper testOutputHelper)
+        public РазворотFeature(РазворотFeature.FixtureData fixtureData, SpaceBattle_Tests_XUnitAssemblyFixture assemblyFixture, Xunit.Abstractions.ITestOutputHelper testOutputHelper)
         {
             this._testOutputHelper = testOutputHelper;
             this.TestInitialize();

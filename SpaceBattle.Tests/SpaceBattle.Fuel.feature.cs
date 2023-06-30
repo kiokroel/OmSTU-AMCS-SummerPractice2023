@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace SpaceBattle.Fuel
+namespace SpaceBattle.Tests
 {
     using TechTalk.SpecFlow;
     using System;
@@ -31,7 +31,7 @@ namespace SpaceBattle.Fuel
 #line 1 "SpaceBattle.Fuel.feature"
 #line hidden
         
-        public ДвижениеПриДостаточномКоличествеТопливаFeature(ДвижениеПриДостаточномКоличествеТопливаFeature.FixtureData fixtureData, SpaceBattle_Fuel_XUnitAssemblyFixture assemblyFixture, Xunit.Abstractions.ITestOutputHelper testOutputHelper)
+        public ДвижениеПриДостаточномКоличествеТопливаFeature(ДвижениеПриДостаточномКоличествеТопливаFeature.FixtureData fixtureData, SpaceBattle_Tests_XUnitAssemblyFixture assemblyFixture, Xunit.Abstractions.ITestOutputHelper testOutputHelper)
         {
             this._testOutputHelper = testOutputHelper;
             this.TestInitialize();
