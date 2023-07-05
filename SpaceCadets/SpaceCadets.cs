@@ -40,7 +40,7 @@ class Program
             .Select(m => new {Cadet = m.Name, GPA = m.Mark}).Distinct().ToList<dynamic>();
             return studentsWithHighestGPA;
         }
-
+        // сделано с помощью: https://github.com/kiokroel
         static List<dynamic> CalculateGPAByDiscipline(List<StudentMark> marks){
             var GPAByDiscipline = marks
             .GroupBy(m => m.Discipline)
